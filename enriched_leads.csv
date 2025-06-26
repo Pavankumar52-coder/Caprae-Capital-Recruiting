@@ -1,0 +1,9 @@
+Domain,Emails,LinkedIn Page URL,Status,Score
+apple.com,"admin@apple.com, contact@apple.com, hello@apple.com, info@apple.com, office@apple.com",N/A,Successfully Enriched,2
+accenture.in,"admin@accenture.in, contact@accenture.in, hello@accenture.in, info@accenture.in, office@accenture.in",https://www.linkedin.com/company/accenture,Successfully Enriched,3
+cognizant.com,"admin@cognizant.com, contact@cognizant.com, hello@cognizant.com, info@cognizant.com, inquiry@cognizant.com",https://www.linkedin.com/company/cognizant,Successfully Enriched,3
+pgagi.in,"admin@pgagi.in, contact@pgagi.in, hello@pgagi.in, info@pgagi.in, office@pgagi.in",https://www.linkedin.com/company/pg-agi/,Successfully Enriched,3
+stripe.com,"admin@stripe.com, contact@stripe.com, hello@stripe.com, info@stripe.com, navin.grawal@example.com",N/A,Successfully Enriched,2
+airbnb.com,"2007_October@2X.jpg, 2008_August_2@2X.jpg, 2008_March@2X.jpg, 2009_March@2X.jpg, 2010_November@2X.jpg",https://www.linkedin.com/company/airbnb,Successfully Enriched,3
+tcs.org,"admin@tcs.org, contact@tcs.org, hello@tcs.org, info@tcs.org, office@tcs.org",N/A,Successfully Enriched,2
+infosys.in,"admin@infosys.in, contact@infosys.in, hello@infosys.in, info@infosys.in, office@infosys.in",https://www.linkedin.com/company/infosys,Successfully Enriched,3
