@@ -1,27 +1,64 @@
-# SaaSquatch Lite – LeadGen Enricher
+## SaaSquatch Lite - Enhanced Lead Generation Tool
 
-# Tool Creation
+This is a streamlined, AI-augmented lead generation tool that scrapes and enriches company domains with emails and LinkedIn profiles. It assigns a lead score to prioritize prospects based on data completeness.
 
-## Introduction to the leadgen tool:
-A Streamlit-based leadgen tool to enrich company domains with publicly available emails and LinkedIn profiles. Supports multi-page scraping and smart LinkedIn fallback via Google Search.
+---
 
-## Setup Instructions:
-1. Clone the repo  Caprae Capital, Recruiting
-2. `pip install -r requirements.txt`  
-3. `streamlit run app.py`
+### Features:
 
-## Usage:
-- Enter domains (one per line, any TLD) or copy paste them
-- Click “Enrich” button
-- View enriched table:
-  - Emails (found or generic)
-  - LinkedIn links
-  - Status & Score
-- Download the results as CSV file easily
+* Multi-page scraping (homepage + fallback paths like `/about`, `/contact`)
+* Extracts publicly listed emails
+* Adds common generic emails (e.g., `info@domain.com`, `sales@domain.com`)
+* Detects LinkedIn company/profile links from the website
+* Fallbacks to Google-based search when LinkedIn is not explicitly listed
+* Calculates a Lead Score from 0–3
+* Interactive Streamlit filters
+* CSV download for enriched leads
 
-## Features:
-- Async scraping from multiple key pages
-- DNS resolution check
-- Fallback LinkedIn lookup via Google Search
-- Lead scoring: email + LinkedIn + success status
-- Filtering and CSV export
+---
+
+### ⚙Installation & Setup:
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/your-username/saasquatch-lite
+cd saasquatch-lite
+```
+
+2. **Install Dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the Streamlit App**
+
+```bash
+streamlit run app.py
+```
+
+---
+
+### Requirements:
+
+* Python 3.9+
+* Libraries:
+
+  * `streamlit`
+  * `aiohttp`
+  * `bs4`
+  * `pandas`
+  * `requests`
+  * `re`
+
+---
+
+### Dataset:
+
+No external dataset is required. The tool operates directly on user-provided domains and fetches data live from the internet.
+
+### Contact:
+
+Author: Pavankumar Tirumalasetty
+Email: tpkumar9121@gmail.com
